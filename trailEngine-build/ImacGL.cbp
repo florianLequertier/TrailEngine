@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ImacGL" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\glimac\;CMake Files\TP_template\;CMake Files\TP_trailRender\;CMake Files\TP_triangle\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glimac">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="glimac/fast">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac/fast" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_template_SDLtemplate">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_template_SDLtemplate/fast">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate/fast" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_trailRender_main">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_trailRender_main/fast">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main/fast" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_triangle_triangle">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_triangle_triangle/fast">
+         <Option output="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
+            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include" />
+            <Add directory="D:/programmation/workspace_Qt/trailEngine/trailEngine/third-party/include/Windows" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle/fast" />
+            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_template/SDLtemplate.cpp">
+         <Option target="TP_template_SDLtemplate"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/main.cpp">
+         <Option target="TP_trailRender_main"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/shaders/red.fs.glsl">
+         <Option target="TP_trailRender_main"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/shaders/red.vs.glsl">
+         <Option target="TP_trailRender_main"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/shaders/trail.fs.glsl">
+         <Option target="TP_trailRender_main"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/shaders/trail.vs.glsl">
+         <Option target="TP_trailRender_main"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_triangle/shaders/red.fs.glsl">
+         <Option target="TP_triangle_triangle"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_triangle/shaders/red.vs.glsl">
+         <Option target="TP_triangle_triangle"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_triangle/triangle.cpp">
+         <Option target="TP_triangle_triangle"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/BBox.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Cone.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/FilePath.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Geometry.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Image.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Program.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/SDLWindowManager.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Shader.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/Sphere.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/common.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/include/glimac/glm.hpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Cone.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Geometry.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Image.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Program.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/SDLWindowManager.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Shader.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/Sphere.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/tiny_obj_loader.cpp">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/src/tiny_obj_loader.h">
+         <Option target="glimac"/>
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/glimac/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\glimac\" />
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_template/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TP_template\" />
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_trailRender/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TP_trailRender\" />
+      </Unit>
+      <Unit filename="D:/programmation/workspace_Qt/trailEngine/trailEngine/TP_triangle/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TP_triangle\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

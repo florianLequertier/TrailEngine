@@ -1,0 +1,7 @@
+# Hashes of file build rules.
+a391ee3b4486e9a93e84d9a4186d264e TP_trailRender/shaders/red.fs.glsl
+258e5d6ae28fb56376e404608f6f0ec7 TP_trailRender/shaders/red.vs.glsl
+ad0bcb434fd6ea1443db0673d6e5e97c TP_trailRender/shaders/trail.fs.glsl
+67c0ffe205df418f49fd9bdc6c71be0b TP_trailRender/shaders/trail.vs.glsl
+97236f91eff6dbb2f15946b4ae421913 TP_triangle/shaders/red.fs.glsl
+bca87c859731d8fd39e74ee5108d734a TP_triangle/shaders/red.vs.glsl

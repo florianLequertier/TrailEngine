@@ -1,4 +1,4 @@
-D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_trailRender/CMakeFiles/TP_trailRender_main.dir
-D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
-D:/programmation/workspace_Qt/trailEngine/trailEngine-build/glimac/CMakeFiles/glimac.dir
-D:/programmation/workspace_Qt/trailEngine/trailEngine-build/TP_triangle/CMakeFiles/TP_triangle_triangle.dir
+D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/CMakeFiles/TP_trailRender_main.dir
+D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir
+D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/CMakeFiles/glimac.dir
+D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/CMakeFiles/TP_triangle_triangle.dir

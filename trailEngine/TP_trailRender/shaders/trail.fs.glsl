@@ -6,5 +6,5 @@ in vec2 vUVCoord;
 out vec4 fFragColor;
 
 void main() {
-    fFragColor = glm::vec4(vFragColor, 1);
+    fFragColor = vec4(vFragColor, 1);
 }

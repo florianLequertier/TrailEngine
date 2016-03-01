@@ -1,3 +1,3 @@
 "C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\TP_template_SDLtemplate.dir/objects.a
 D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\TP_template_SDLtemplate.dir/objects.a @CMakeFiles\TP_template_SDLtemplate.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\TP_template_SDLtemplate.dir/objects.a -Wl,--no-whole-archive  -o TP_template_SDLtemplate.exe -Wl,--out-implib,libTP_template_SDLtemplate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TP_template_SDLtemplate.dir\linklibs.rsp
+D:\Qt\Tools\mingw492_32\bin\g++.exe     -Wl,--whole-archive CMakeFiles\TP_template_SDLtemplate.dir/objects.a -Wl,--no-whole-archive  -o TP_template_SDLtemplate.exe -Wl,--out-implib,libTP_template_SDLtemplate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TP_template_SDLtemplate.dir\linklibs.rsp

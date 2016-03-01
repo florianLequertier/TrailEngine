@@ -5,331 +5,257 @@
       <Option title="TrailEngine" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\glimac\;CMake Files\TP_template\;CMake Files\TP_trailRender\;CMake Files\TP_triangle\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\glimac\;CMake Files\TP_trailRender\;CMake Files\TP_template\;CMake Files\TP_triangle\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="edit_cache">
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="glimac">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac" />
          <Option object_output="./" />
          <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="glimac/fast">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/libglimac.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac" />
          <Option object_output="./" />
          <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac/fast" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="TP_template_SDLtemplate">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="TP_template_SDLtemplate/fast">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate/fast" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 glimac/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="TP_trailRender_main">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="TP_trailRender_main/fast">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/TP_trailRender_main" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main/fast" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 TP_trailRender_main/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_template_SDLtemplate">
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="TP_template_SDLtemplate/fast">
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/TP_template_SDLtemplate" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 TP_template_SDLtemplate/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="TP_triangle_triangle">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="TP_triangle_triangle/fast">
-         <Option output="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle.exe" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle" />
+         <Option output="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/TP_triangle_triangle" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include" />
-            <Add directory="D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
-            <Add directory="D:/Qt/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include" />
-            <Add directory="D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include" />
+            <Add directory="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include" />
+            <Add directory="/usr/include/SDL" />
          </Compiler>
          <MakeCommands>
-            <Build command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle/fast" />
-            <CompileFile command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 TP_triangle_triangle/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_template/SDLtemplate.cpp">
-         <Option target="TP_template_SDLtemplate"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_template/SDLtemplate.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/main.cpp">
-         <Option target="TP_trailRender_main"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/main.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/shaders/red.fs.glsl">
-         <Option target="TP_trailRender_main"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_triangle/triangle.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/shaders/red.vs.glsl">
-         <Option target="TP_trailRender_main"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Cone.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/shaders/trail.fs.glsl">
-         <Option target="TP_trailRender_main"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Geometry.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/shaders/trail.vs.glsl">
-         <Option target="TP_trailRender_main"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Image.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_triangle/shaders/red.fs.glsl">
-         <Option target="TP_triangle_triangle"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Program.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_triangle/shaders/red.vs.glsl">
-         <Option target="TP_triangle_triangle"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/SDLWindowManager.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_triangle/triangle.cpp">
-         <Option target="TP_triangle_triangle"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Shader.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/BBox.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/Sphere.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Cone.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/tiny_obj_loader.cpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/FilePath.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/shaders/red.fs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Geometry.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/shaders/red.vs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Image.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/shaders/trail.fs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Program.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/shaders/trail.vs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/SDLWindowManager.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_triangle/shaders/red.fs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Shader.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_triangle/shaders/red.vs.glsl">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/Sphere.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/BBox.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/common.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Cone.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include/glimac/glm.hpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/FilePath.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Cone.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Geometry.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Geometry.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Image.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Image.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Program.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Program.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/SDLWindowManager.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/SDLWindowManager.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Shader.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Shader.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/Sphere.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/Sphere.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/common.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/tiny_obj_loader.cpp">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include/glimac/glm.hpp">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/src/tiny_obj_loader.h">
-         <Option target="glimac"/>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/src/tiny_obj_loader.h">
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/CMakeLists.txt">
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/glimac/CMakeLists.txt">
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/CMake/FindGLEW.cmake">
+          <Option virtualFolder="CMake Files\CMake\" />
+      </Unit>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/CMakeLists.txt">
           <Option virtualFolder="CMake Files\glimac\" />
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_template/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\TP_template\" />
-      </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_trailRender/CMakeLists.txt">
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_trailRender/CMakeLists.txt">
           <Option virtualFolder="CMake Files\TP_trailRender\" />
       </Unit>
-      <Unit filename="D:/programmation/repo_git/TrailEngine/trailEngine/TP_triangle/CMakeLists.txt">
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_template/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\TP_template\" />
+      </Unit>
+      <Unit filename="/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_triangle/CMakeLists.txt">
           <Option virtualFolder="CMake Files\TP_triangle\" />
       </Unit>
    </Project>

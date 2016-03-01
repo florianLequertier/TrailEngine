@@ -1,6 +1,6 @@
-The system is: Windows - 10.0.10586 - AMD64
+The system is: Linux - 4.2.0-16-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: D:/Qt/Tools/mingw492_32/bin/gcc.exe 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags: 
 
@@ -8,12 +8,12 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/3.4.1/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/3.2.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: D:/Qt/Tools/mingw492_32/bin/g++.exe 
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
@@ -21,181 +21,153 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/3.4.1/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/3.2.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_e71a2/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e71a2.dir\build.make CMakeFiles/cmTC_e71a2.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e71a2.dir/testCCompiler.c.obj
-D:\Qt\Tools\mingw492_32\bin\gcc.exe     -o CMakeFiles\cmTC_e71a2.dir\testCCompiler.c.obj   -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_e71a2.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e71a2.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e71a2.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_e71a2.dir/objects.a @CMakeFiles\cmTC_e71a2.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_e71a2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e71a2.exe -Wl,--out-implib,libcmTC_e71a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e71a2.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1395098050/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1395098050.dir/build.make CMakeFiles/cmTryCompileExec1395098050.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1395098050.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1395098050.dir/testCCompiler.c.o   -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1395098050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1395098050.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1395098050.dir/testCCompiler.c.o  -o cmTryCompileExec1395098050 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_0c55f/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_0c55f.dir\build.make CMakeFiles/cmTC_0c55f.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c55f.dir/CMakeCCompilerABI.c.obj
-D:\Qt\Tools\mingw492_32\bin\gcc.exe     -o CMakeFiles\cmTC_0c55f.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_0c55f.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0c55f.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0c55f.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_0c55f.dir/objects.a @CMakeFiles\cmTC_0c55f.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_0c55f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0c55f.exe -Wl,--out-implib,libcmTC_0c55f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
-Using built-in specs.
-COLLECT_GCC=D:\Qt\Tools\mingw492_32\bin\gcc.exe
-COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe
-Target: i686-w64-mingw32
-Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
-Thread model: posix
-gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
-COMPILER_PATH=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
-LIBRARY_PATH=D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c55f.exe' '-mtune=generic' '-march=i686'
- D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\cc92Hxiw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -o cmTC_0c55f.exe D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_0c55f.dir/objects.a --no-whole-archive --out-implib libcmTC_0c55f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3044381567/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3044381567.dir/build.make CMakeFiles/cmTryCompileExec3044381567.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3044381567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3044381567.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3044381567 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3044381567' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmc9Avw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3044381567 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_0c55f/fast"]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_0c55f.dir\build.make CMakeFiles/cmTC_0c55f.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0c55f.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\gcc.exe     -o CMakeFiles\cmTC_0c55f.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_0c55f.exe]
-  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0c55f.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0c55f.dir/objects.a]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_0c55f.dir/objects.a @CMakeFiles\cmTC_0c55f.dir\objects1.rsp]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_0c55f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0c55f.exe -Wl,--out-implib,libcmTC_0c55f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3044381567/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3044381567.dir/build.make CMakeFiles/cmTryCompileExec3044381567.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3044381567]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3044381567.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3044381567 -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Qt\Tools\mingw492_32\bin\gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe]
-  ignore line: [Target: i686-w64-mingw32]
-  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) ]
-  ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0c55f.exe' '-mtune=generic' '-march=i686']
-  link line: [ D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\cc92Hxiw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -o cmTC_0c55f.exe D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_0c55f.dir/objects.a --no-whole-archive --out-implib libcmTC_0c55f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o]
-    arg [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe] ==> ignore
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3044381567' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmc9Avw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3044381567 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\cc92Hxiw.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmc9Avw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [--sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [i386pe] ==> ignore
-    arg [-Bdynamic] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0c55f.exe] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o] ==> ignore
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_0c55f.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_0c55f.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [cmTryCompileExec3044381567] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3044381567.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-lpthread] ==> lib [pthread]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-liconv] ==> lib [iconv]
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lgcc_eh] ==> lib [gcc_eh]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc]
-  remove lib [gcc_eh]
+  remove lib [gcc_s]
   remove lib [gcc]
-  remove lib [gcc_eh]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> [D:/Qt/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc] ==> [D:/Qt/Tools/mingw492_32/lib/gcc]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> [D:/Qt/Tools/mingw492_32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> [D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> [D:/Qt/Tools/mingw492_32/lib]
-  implicit libs: [mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [D:/Qt/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2;D:/Qt/Tools/mingw492_32/lib/gcc;D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib;D:/Qt/Tools/mingw492_32/lib]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_21ea8/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_21ea8.dir\build.make CMakeFiles/cmTC_21ea8.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21ea8.dir/feature_tests.c.obj
-D:\Qt\Tools\mingw492_32\bin\gcc.exe    -std=c11 -o CMakeFiles\cmTC_21ea8.dir\feature_tests.c.obj   -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_21ea8.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_21ea8.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_21ea8.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_21ea8.dir/objects.a @CMakeFiles\cmTC_21ea8.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_21ea8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_21ea8.exe -Wl,--out-implib,libcmTC_21ea8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_21ea8.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1805869696/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1805869696.dir/build.make CMakeFiles/cmTryCompileExec1805869696.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1805869696.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec1805869696.dir/feature_tests.c.o   -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1805869696
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1805869696.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1805869696.dir/feature_tests.c.o  -o cmTryCompileExec1805869696 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -205,19 +177,18 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_6a2bc/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6a2bc.dir\build.make CMakeFiles/cmTC_6a2bc.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6a2bc.dir/feature_tests.c.obj
-D:\Qt\Tools\mingw492_32\bin\gcc.exe    -std=c99 -o CMakeFiles\cmTC_6a2bc.dir\feature_tests.c.obj   -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_6a2bc.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6a2bc.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6a2bc.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_6a2bc.dir/objects.a @CMakeFiles\cmTC_6a2bc.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_6a2bc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6a2bc.exe -Wl,--out-implib,libcmTC_6a2bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6a2bc.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3284269408/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3284269408.dir/build.make CMakeFiles/cmTryCompileExec3284269408.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3284269408.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec3284269408.dir/feature_tests.c.o   -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3284269408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3284269408.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3284269408.dir/feature_tests.c.o  -o cmTryCompileExec3284269408 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -227,19 +198,18 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_398c5/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_398c5.dir\build.make CMakeFiles/cmTC_398c5.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_398c5.dir/feature_tests.c.obj
-D:\Qt\Tools\mingw492_32\bin\gcc.exe    -std=c90 -o CMakeFiles\cmTC_398c5.dir\feature_tests.c.obj   -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_398c5.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_398c5.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_398c5.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_398c5.dir/objects.a @CMakeFiles\cmTC_398c5.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_398c5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_398c5.exe -Wl,--out-implib,libcmTC_398c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_398c5.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2702483506/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2702483506.dir/build.make CMakeFiles/cmTryCompileExec2702483506.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2702483506.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2702483506.dir/feature_tests.c.o   -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2702483506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2702483506.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2702483506.dir/feature_tests.c.o  -o cmTryCompileExec2702483506 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -247,184 +217,149 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_67a10/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_67a10.dir\build.make CMakeFiles/cmTC_67a10.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_67a10.dir/testCXXCompiler.cxx.obj
-D:\Qt\Tools\mingw492_32\bin\g++.exe      -o CMakeFiles\cmTC_67a10.dir\testCXXCompiler.cxx.obj -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_67a10.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_67a10.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_67a10.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_67a10.dir/objects.a @CMakeFiles\cmTC_67a10.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_67a10.dir/objects.a -Wl,--no-whole-archive  -o cmTC_67a10.exe -Wl,--out-implib,libcmTC_67a10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_67a10.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1162223495/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1162223495.dir/build.make CMakeFiles/cmTryCompileExec1162223495.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1162223495.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1162223495.dir/testCXXCompiler.cxx.o -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1162223495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1162223495.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1162223495.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1162223495 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_c2c89/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c2c89.dir\build.make CMakeFiles/cmTC_c2c89.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c2c89.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Qt\Tools\mingw492_32\bin\g++.exe      -o CMakeFiles\cmTC_c2c89.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_c2c89.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c2c89.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c2c89.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_c2c89.dir/objects.a @CMakeFiles\cmTC_c2c89.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_c2c89.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c2c89.exe -Wl,--out-implib,libcmTC_c2c89.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
-Using built-in specs.
-COLLECT_GCC=D:\Qt\Tools\mingw492_32\bin\g++.exe
-COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe
-Target: i686-w64-mingw32
-Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
-Thread model: posix
-gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) 
-COMPILER_PATH=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/;D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/
-LIBRARY_PATH=D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/;D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c2c89.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
- D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\ccWunvPv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c2c89.exe D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_c2c89.dir/objects.a --no-whole-archive --out-implib libcmTC_c2c89.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec104929699/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec104929699.dir/build.make CMakeFiles/cmTryCompileExec104929699.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec104929699
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104929699.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec104929699 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec104929699' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckT0gno.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec104929699 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_c2c89/fast"]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c2c89.dir\build.make CMakeFiles/cmTC_c2c89.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c2c89.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\g++.exe      -o CMakeFiles\cmTC_c2c89.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_c2c89.exe]
-  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c2c89.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c2c89.dir/objects.a]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_c2c89.dir/objects.a @CMakeFiles\cmTC_c2c89.dir\objects1.rsp]
-  ignore line: [D:\Qt\Tools\mingw492_32\bin\g++.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_c2c89.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c2c89.exe -Wl,--out-implib,libcmTC_c2c89.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec104929699/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec104929699.dir/build.make CMakeFiles/cmTryCompileExec104929699.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec104929699]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec104929699.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec104929699 -rdynamic  ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Qt\Tools\mingw492_32\bin\g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe]
-  ignore line: [Target: i686-w64-mingw32]
-  ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=ada,c,c++,fortran,objc,obj-c++,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-cloog-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw492/prerequisites/i686-w64-mingw32-static --with-cloog=/c/mingw492/prerequisites/i686-w64-mingw32-static --enable-cloog-backend=isl --with-pkgversion='i686-posix-dwarf-rev1, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/include -I/c/mingw492/prerequisites/i686-zlib-static/include -I/c/mingw492/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32/opt/lib -L/c/mingw492/prerequisites/i686-zlib-static/lib -L/c/mingw492/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.2 (i686-posix-dwarf-rev1, Built by MinGW-W64 project) ]
-  ignore line: [COMPILER_PATH=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/bin/]
-  ignore line: [LIBRARY_PATH=D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/]
-  ignore line: [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c2c89.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe -plugin D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\ccWunvPv.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_c2c89.exe D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2 -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib -LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\cmTC_c2c89.dir/objects.a --no-whole-archive --out-implib libcmTC_c2c89.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o]
-    arg [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/collect2.exe] ==> ignore
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec104929699' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckT0gno.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec104929699 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
-    arg [-plugin-opt=D:/Qt/Tools/mingw492_32/bin/../libexec/gcc/i686-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\PCflo\AppData\Local\Temp\ccWunvPv.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckT0gno.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
-    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
-    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
-    arg [--sysroot=C:/mingw492/i686-492-posix-dwarf-rt_v3-rev1/mingw32] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [i386pe] ==> ignore
-    arg [-Bdynamic] ==> ignore
-    arg [-u] ==> ignore
-    arg [___register_frame_info] ==> ignore
-    arg [-u] ==> ignore
-    arg [___deregister_frame_info] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c2c89.exe] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtbegin.o] ==> ignore
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib]
-    arg [-LD:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..]
-    arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_c2c89.dir/objects.a] ==> ignore
-    arg [--no-whole-archive] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_c2c89.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
+    arg [cmTryCompileExec104929699] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec104929699.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [-lpthread] ==> lib [pthread]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
-    arg [-liconv] ==> lib [iconv]
-    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lmoldname] ==> lib [moldname]
-    arg [-lmingwex] ==> lib [mingwex]
-    arg [-lmsvcrt] ==> lib [msvcrt]
-    arg [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2] ==> [D:/Qt/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc] ==> [D:/Qt/Tools/mingw492_32/lib/gcc]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../lib] ==> [D:/Qt/Tools/mingw492_32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/lib] ==> [D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib]
-  collapse library dir [D:/Qt/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../..] ==> [D:/Qt/Tools/mingw492_32/lib]
-  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;moldname;mingwex;msvcrt]
-  implicit dirs: [D:/Qt/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2;D:/Qt/Tools/mingw492_32/lib/gcc;D:/Qt/Tools/mingw492_32/i686-w64-mingw32/lib;D:/Qt/Tools/mingw492_32/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_fcd48/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_fcd48.dir\build.make CMakeFiles/cmTC_fcd48.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fcd48.dir/feature_tests.cxx.obj
-D:\Qt\Tools\mingw492_32\bin\g++.exe     -std=c++14 -o CMakeFiles\cmTC_fcd48.dir\feature_tests.cxx.obj -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_fcd48.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fcd48.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fcd48.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_fcd48.dir/objects.a @CMakeFiles\cmTC_fcd48.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_fcd48.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fcd48.exe -Wl,--out-implib,libcmTC_fcd48.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fcd48.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1398176441/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1398176441.dir/build.make CMakeFiles/cmTryCompileExec1398176441.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1398176441.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTryCompileExec1398176441.dir/feature_tests.cxx.o -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1398176441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1398176441.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1398176441.dir/feature_tests.cxx.o  -o cmTryCompileExec1398176441 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
@@ -464,7 +399,7 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -478,25 +413,24 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_4040a/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4040a.dir\build.make CMakeFiles/cmTC_4040a.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4040a.dir/feature_tests.cxx.obj
-D:\Qt\Tools\mingw492_32\bin\g++.exe     -std=c++11 -o CMakeFiles\cmTC_4040a.dir\feature_tests.cxx.obj -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_4040a.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4040a.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4040a.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_4040a.dir/objects.a @CMakeFiles\cmTC_4040a.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_4040a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4040a.exe -Wl,--out-implib,libcmTC_4040a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4040a.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec641498168/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec641498168.dir/build.make CMakeFiles/cmTryCompileExec641498168.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec641498168.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec641498168.dir/feature_tests.cxx.o -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec641498168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec641498168.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec641498168.dir/feature_tests.cxx.o  -o cmTryCompileExec641498168 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -559,19 +493,18 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe" "cmTC_1fa0a/fast"
-D:/Qt/Tools/mingw492_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_1fa0a.dir\build.make CMakeFiles/cmTC_1fa0a.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1fa0a.dir/feature_tests.cxx.obj
-D:\Qt\Tools\mingw492_32\bin\g++.exe     -std=c++98 -o CMakeFiles\cmTC_1fa0a.dir\feature_tests.cxx.obj -c D:\programmation\workspace_Qt\trailEngine\trailEngine-build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_1fa0a.exe
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1fa0a.dir\link.txt --verbose=1
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1fa0a.dir/objects.a
-D:\Qt\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\cmTC_1fa0a.dir/objects.a @CMakeFiles\cmTC_1fa0a.dir\objects1.rsp
-D:\Qt\Tools\mingw492_32\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_1fa0a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1fa0a.exe -Wl,--out-implib,libcmTC_1fa0a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1fa0a.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4187014431/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4187014431.dir/build.make CMakeFiles/cmTryCompileExec4187014431.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4187014431.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec4187014431.dir/feature_tests.cxx.o -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec4187014431
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4187014431.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4187014431.dir/feature_tests.cxx.o  -o cmTryCompileExec4187014431 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -631,3 +564,33 @@ mingw32-make.exe[1]: Leaving directory 'D:/programmation/workspace_Qt/trailEngin
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec852655072/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec852655072.dir/build.make CMakeFiles/cmTryCompileExec852655072.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec852655072.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec852655072.dir/CheckIncludeFiles.c.o   -c /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec852655072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec852655072.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec852655072.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec852655072 -rdynamic 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1316416123/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1316416123.dir/build.make CMakeFiles/cmTryCompileExec1316416123.dir/build
+gmake[1]: Entering directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1316416123.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1316416123.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1316416123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1316416123.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1316416123.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1316416123 -rdynamic -lpthread 
+gmake[1]: Leaving directory '/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/CMakeFiles/CMakeTmp'
+
+

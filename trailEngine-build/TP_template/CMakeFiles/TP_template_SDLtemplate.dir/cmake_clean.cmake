@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.obj"
+  "CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o"
   "TP_template_SDLtemplate.pdb"
-  "TP_template_SDLtemplate.exe"
-  "TP_template_SDLtemplate.exe.manifest"
-  "libTP_template_SDLtemplate.dll.a"
+  "TP_template_SDLtemplate"
 )
 
 # Per-language clean rules from dependency scanning.

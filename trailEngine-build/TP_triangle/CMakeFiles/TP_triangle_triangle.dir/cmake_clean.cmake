@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
   "shaders/red.fs.glsl"
   "shaders/red.vs.glsl"
-  "CMakeFiles/TP_triangle_triangle.dir/triangle.cpp.obj"
+  "CMakeFiles/TP_triangle_triangle.dir/triangle.cpp.o"
   "TP_triangle_triangle.pdb"
-  "TP_triangle_triangle.exe"
-  "TP_triangle_triangle.exe.manifest"
-  "libTP_triangle_triangle.dll.a"
+  "TP_triangle_triangle"
 )
 
 # Per-language clean rules from dependency scanning.

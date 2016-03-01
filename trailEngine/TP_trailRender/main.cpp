@@ -187,8 +187,9 @@ void TrailRenderer::pushBack(const glm::vec3& pointPosition, const glm::vec3& co
 {
     int trailSize = _trailPoints.size();
 
-    if(trailSize != 0 && glm::length2(_trailPoints[trailSize - 1] - pointPosition) < 0.000001f ) //static ?
-        return;
+    //activate this if you don't want to update trail if object isn't moving.
+//    if(trailSize != 0 && glm::length2(_trailPoints[trailSize - 1] - pointPosition) < 0.000001f ) //static ?
+//        return;
 
     if(trailSize == 0)
     {
@@ -419,6 +420,7 @@ int main(int argc, char** argv) {
     trailRenderer.initGL();
 
     Timer timer(&windowManager);
+    Timer FPSTimer(&windowManager);
 
     Camera camera(Camera::CameraType::ORTHOGRAPHIC);
     camera.setPosition(glm::vec3(0, 0, 10));
@@ -454,6 +456,13 @@ int main(int argc, char** argv) {
                 glUniformMatrix4fv( glGetUniformLocation(program.getGLId(), "ViewMatrix") , 1, false, glm::value_ptr(camera.getViewMat()));
             trailRenderer.draw();
         windowManager.swapBuffers();
+
+
+        if(FPSTimer.elapsedTime() < 0.016f)
+        {
+            SDL_Delay((0.016f - FPSTimer.elapsedTime()) * 1000.f);
+        }
+        FPSTimer.restart();
 
     }
 

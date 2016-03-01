@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/programmation/repo_git/TrailEngine/trailEngine/TP_template/SDLtemplate.cpp" "D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.obj"
+  "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/TP_template/SDLtemplate.cpp" "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include/Windows"
-  "D:/programmation/repo_git/TrailEngine/trailEngine/glimac/include"
-  "D:/programmation/repo_git/TrailEngine/trailEngine/third-party/include"
-  )
-
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
   )
 
-# Fortran module output directory.
-set(CMAKE_Fortran_TARGET_MODULE_DIR "")
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SDL"
+  "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/glimac/include"
+  "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine/third-party/include"
+  )
+set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

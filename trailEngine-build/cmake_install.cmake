@@ -1,8 +1,8 @@
-# Install script for directory: D:/programmation/repo_git/TrailEngine/trailEngine
+# Install script for directory: /home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TrailEngine")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,12 +27,17 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/programmation/repo_git/TrailEngine/trailEngine-build/glimac/cmake_install.cmake")
-  include("D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_template/cmake_install.cmake")
-  include("D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_trailRender/cmake_install.cmake")
-  include("D:/programmation/repo_git/TrailEngine/trailEngine-build/TP_triangle/cmake_install.cmake")
+  include("/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/glimac/cmake_install.cmake")
+  include("/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_trailRender/cmake_install.cmake")
+  include("/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_template/cmake_install.cmake")
+  include("/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/TP_triangle/cmake_install.cmake")
 
 endif()
 
@@ -44,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/programmation/repo_git/TrailEngine/trailEngine-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/florian/gitRepo/TrailEngine/TrailEngine/trailEngine-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
